@@ -1,1 +1,164 @@
-/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 550px) {
+  .top-left-section {
+    width: 90%;
+  }
+  .top-right-section {
+    display: none;
+  }
+}
+
+.top-left-section {
+  min-width: 55%;
+}
+
+.heading {
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.top-right-section {
+  width: 45%; /* image style*/
+}
+
+.form-element {
+}
+
+.label {
+  margin-bottom: 10px;
+  color: #b5b7c4;
+}
+
+.input {
+  margin-bottom: 12px;
+  width: 210px;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid #b5b7c4;
+}
+
+.input::placeholder {
+  color: #b5b7c4;
+  padding: 10px;
+}
+
+.add-button {
+  height: 26px;
+  width: 80px;
+  outline: none;
+  color: white;
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 4px;
+}
+
+/* top have the responsive layout*/
+/* top section finished then bottom sectiono started*/
+
+.bottom-section {
+}
+.bottom-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding: 20px;
+  align-items: center;
+}
+
+@media (max-width: 550px) {
+  .sub-heading {
+    font-size: 18px;
+  }
+  .star-button {
+    font-size: 8px;
+    width: 40px;
+    font-weight: 600;
+  }
+}
+
+.sub-heading {
+  font-size: 24px;
+}
+
+.star-button {
+  width: 70px;
+  height: 22px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid #9897f0;
+  color: #9897f0;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: white;
+}
+
+/* botom static finished */
+/*then react componet work started*/
+
+.bottom-bottom {
+  padding: 0px;
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-card {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 14px;
+  min-width: 200px;
+  max-width: 300px;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.top-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+}
+.star-img {
+  width: 20px;
+  height: 20px;
+}
+
+.bottom-item {
+  margin-top: 8px;
+  font-size: 12px;
+}
