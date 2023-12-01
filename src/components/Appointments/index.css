@@ -9,17 +9,18 @@
   background-image: linear-gradient(to top, #9796f0, #fbc7d4);
   display: flex;
   justify-content: center;
-  overflow-y: scroll;
 }
 
 .card {
   width: 90%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   background-color: white;
   padding: 20px;
   border-radius: 14px;
   margin-top: 20px;
+  overflow-y: auto;
 }
 
 .top-section {
